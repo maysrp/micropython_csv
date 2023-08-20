@@ -22,7 +22,15 @@ f.close()
 ![CSV文件](csv.PNG)
 
 ### TF卡 SD卡使用
-
+#### SD卡接线
+|TF卡|PICO|
+|-|-|
+|vcc| 3v3|
+|GND| gnd|
+|cs| GP13|
+|clk| GP10|
+|mos| GP11|
+|mis| GP8|
 ```
 from machine import SPI,Pin
 import os,sdcard
