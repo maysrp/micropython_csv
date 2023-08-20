@@ -1,5 +1,5 @@
 # micropython_csv
-USE_CSV
+上传csv.py到你的micropython（PICO）设备即可使用
 ### 简单使用
 ```
 from csv import CSV
