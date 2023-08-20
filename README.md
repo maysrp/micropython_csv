@@ -1,7 +1,8 @@
 # micropython_csv
 USE_CSV
+### 简单使用
 ```
-form csv import CSV
+from csv import CSV
 f=CSV()
 #默认生成当前总文件数目的csv文件(若当前目录下只有1个文件，生成1.csv)
 f.cols(["INA3221_1_1","INA3221_1_2","INA3221_2_1","INA3221_2_2","HX711","RV_1","RV_2","RV_3","RV_4"])
